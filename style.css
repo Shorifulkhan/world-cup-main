@@ -168,6 +168,7 @@ nav ul{
 main{
     width: 90%;
     row-gap: 20px;
+    margin: auto;
 }
     .banner{
       grid-template-columns: repeat(1, 1fr);
@@ -196,11 +197,26 @@ main{
 .all-blogs{
     display: flex;
     flex-direction: column; 
-    width: 90%; 
-    padding-left:20px;
+    width: 100%; 
+    padding: 0%;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 footer{
-    display: none;
- }   
+    display: flex;
+    flex-direction: column;
+ } 
+nav ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0%;
+}  
+hr{
+    border: 1px solid gray;
+    margin: 0 10% 0 10%;
 }
+}
+/* mobile end  */
+
