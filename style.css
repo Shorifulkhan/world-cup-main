@@ -167,6 +167,7 @@ nav ul{
 @media only screen and (max-width:688px){
 main{
     width: 90%;
+    row-gap: 20px;
 }
     .banner{
       grid-template-columns: repeat(1, 1fr);
@@ -176,13 +177,30 @@ main{
     font-size:45px;
 }
 .banner-i{
-    padding: 0;
+    padding-right: 30px; 
     text-align: center;
 }
+
 .banner-ii img{
     width: 90%;
 }
- .continer, footer{
+.continer{
+    grid-template-columns: repeat(1, 1fr);
+}
+.sidebar{
+    background-color:rgba(255, 255, 255, 0.179);
+    width: 80%;
+    justify-content: center;
+}
+
+.all-blogs{
+    display: flex;
+    flex-direction: column; 
+    width: 90%; 
+    padding-left:20px;
+}
+
+footer{
     display: none;
  }   
 }
